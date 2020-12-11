@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head> </head>
+	<body>
+		<table  border="0" width="100%">
+			<tr>
+				<td width="10%" bgcolor="grey"> </td>
+				<td width="80%" bgcolor="silver">
+					<h1 align="center"><U>STUDENT REGISTRATION</U></H1>
+					<h3>&nbsp;&nbsp;1.PERSONAL DETAILS</h3><br>
+					<form method="post">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NAME:
+						&nbsp;&nbsp;<input type="text" name="txtName" placeholder="First Name">&nbsp;&nbsp;<input type="text" name="txtName" placeholder="Last Name"><br><br>
+						&nbsp;&nbsp;PARENTS NAME:
+						&nbsp;&nbsp;<input type="text" name="txtName" placeholder="Father Name">&nbsp;&nbsp;<input type="text" name="txtName" placeholder="Mother Name"><br><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOB:
+						&nbsp;&nbsp;<input type="date" name="dtDOB" > 
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GENDER :
+						<select name="Slgender">
+							<option value="male">male</option>
+							<option value="female">Female </option>
+							<option value="other">Other </option>
+						</select><br><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Residing in &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="rdresiding" value="India" >India
+						&nbsp;&nbsp;<input type="radio" name="rdresiding" value="Outside India" >Outside India
+					</form>	
+					
+					<h3>&nbsp;&nbsp;2.COMMUNICATION DETAILS</h3><br>
+					<form method="post">
+						&nbsp;&nbsp;MOBILE NUMBER
+						&nbsp;&nbsp;<input type="number" name="noNumber" value="mobilenumber" placeholder="Your mobile number">
+						&nbsp;&nbsp;EMAIL
+						&nbsp;&nbsp;<input type="email" name="emEmail" placeholder="Your Email"><br><br>
+						&nbsp;&nbsp;ADDRESS LINE 1
+						&nbsp;&nbsp;<input type="text" name="txtaddress1" placeholder="Your address" size="100"><br><br>
+						&nbsp;&nbsp;ADDRESS LINE 2
+						&nbsp;&nbsp;<input type="text" name="txtaddress2" placeholder="Your address" size="100"><br><br>
+						&nbsp;&nbsp;LANDMARK
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="txtlandmark" placeholder="LANDMARK" >&nbsp;&nbsp;&nbsp;<input type="text" name="txtplace" placeholder="City/Town/Village" ><br><br>
+						&nbsp;&nbsp;STATE
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="txtState" placeholder="STATE" >&nbsp;&nbsp;&nbsp;<input type="number" name="noPincode" placeholder="PINCODE" ><br><br>
+					</form>
+					
+					<h3>&nbsp;&nbsp;3.PHOTO AND SIGNATURE UPLOAD</h3><br>
+					<form method="post" enctype="multipart/form-data">
+						&nbsp;&nbsp;&nbsp;&nbsp;Upload Photo:&nbsp;&nbsp;&nbsp;&nbsp;<input type="file"  name="flupload" >
+						&nbsp;&nbsp;&nbsp;&nbsp;Upload Signature:&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" name="flupload" >
+					</form><br>
+					
+					<h3>&nbsp;&nbsp;4.SELECT ACADEMIC INSTITUTION </h3><br>
+					<form>
+						&nbsp;&nbsp;&nbsp;&nbsp;INSTITUTION NAME &nbsp;&nbsp;<input type="text" name="txtName" placeholder="Name of the Institution" size="50"><br><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;UNIVERSITY TYPE: &nbsp;&nbsp;&nbsp;
+						<select>
+							<option  value="s01">University</option>
+							<option value="s02">Board </option>
+							<option value="so3">Standalone </option>
+							<option value="so4">Autonomous colleges</option>
+							<option value="so5">University Level Institution</option>
+						</select>
+						&nbsp;&nbsp;&nbsp;<input type="text" name="txtplace" placeholder="Program/Course Name" >
+					</form><br><br>
+					
+					<h3>&nbsp;&nbsp;5.CREATE YOUR LOG-IN DETAILS</h3><br>
+					<form method="post" >
+						&nbsp;&nbsp; UserId
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="txtUsername" placeholder="Type Your Userid" ><br><br>
+						&nbsp;&nbsp; Password
+						&nbsp;&nbsp;<input type="password" name="passPassword" placeholder="Type Your Password" ><br><br>				
+						&nbsp;&nbsp;<input type="checkbox"  name="chksubject" value="Terms">&nbsp;I agree to the Terms & Conditions 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" ><br><br>
+				</td>
+				<td width="10%" bgcolor="grey"> </td>
+			</tr>
+		
+		</table>
+		
+
+
+
+
+
+	</body>
+</html>	
